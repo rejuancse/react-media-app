@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Nelson Lakin",
+      "id": 1
+    },
+    {
+      "name": "Alison Reilly",
+      "id": 2
+    },
+    {
+      "name": "Mr. Thomas Jaskolski",
+      "id": 3
+    },
+    {
+      "name": "Melvin DuBuque",
+      "id": 4
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
