@@ -7,8 +7,7 @@ import { useThunk } from '../hooks/use-thunk';
 import UserListItem from './UserListItem';
 
 function UsersList() {
-    const [doFetchUsers, isLoadingUsers, loadingUsersError] =
-        useThunk(fetchUsers);
+    const [doFetchUsers, isLoadingUsers, loadingUsersError] = useThunk(fetchUsers);
     const [doCreateUser, isCreatingUser, creatingUserError] = useThunk(addUser);
     const { data } = useSelector((state) => {
         return state.users;
@@ -36,14 +35,12 @@ function UsersList() {
 
     return (
         <div>
-        <div className="flex flex-row justify-between m-3">
-            <h1 className="m-2 text-xl">Users</h1>
-            <Button loading={isCreatingUser} onClick={handleUserAdd}>
-            + Add User
-            </Button>
-            {creatingUserError && 'Error creating user...'}
-        </div>
-        {renderedUsers}
+            <div className="flex flex-row justify-between m-3">
+                <h1 className="m-2 text-xl">Users</h1>
+                <Button loading={isCreatingUser} onClick={handleUserAdd}>+ Add User</Button>
+                {creatingUserError && 'Error creating user...'}
+            </div>
+            {renderedUsers}
         </div>
     );
 }
