@@ -1,28 +1,24 @@
 {
   "users": [
     {
-      "name": "Traci Weber",
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Elsie Price",
       "id": 3
     },
     {
-      "name": "Lynne Cummings",
+      "name": "Harold Strosin",
       "id": 4
     },
     {
-      "name": "Sherman Feil-Romaguera",
-      "id": 7
+      "name": "Ms. Pearl Schmeler",
+      "id": 5
     },
     {
-      "name": "Marilyn Denesik",
-      "id": 8
-    },
-    {
-      "name": "Cecil Reilly",
-      "id": 9
-    },
-    {
-      "name": "Randolph Bradtke",
-      "id": 10
+      "name": "Jody Weber",
+      "id": 6
     }
   ],
   "albums": [],

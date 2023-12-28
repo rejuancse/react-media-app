@@ -6,7 +6,9 @@ import { removeUser } from '../thunks/removeUser';
 const usersSlice = createSlice({
   name: 'users',
   initialState: {
+    isLoading: false,
     data: [],
+    error: null,
   },
   extraReducers(builder) {
     builder.addCase(fetchUsers.pending, (state, action) => {
