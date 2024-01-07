@@ -1,4 +1,4 @@
-import { IoTrashOutline } from 'react-icons/io5';
+import { GoTrashcan } from 'react-icons/go';
 import Button from './Button';
 import { removeUser } from '../store';
 import { useThunk } from '../hooks/use-thunk';
@@ -15,7 +15,7 @@ function UsersListItem({ user }) {
   const header = (
     <>
       <Button className="mr-3" loading={isLoading} onClick={handleClick}>
-        <IoTrashOutline />
+        <GoTrashcan />
       </Button>
       {error && <div>Error deleting user.</div>}
       {user.name}

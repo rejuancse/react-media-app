@@ -13,18 +13,57 @@
       "id": 4
     },
     {
-      "name": "Ms. Pearl Schmeler",
+      "name": "Mr. Juana King",
+      "id": 5
+    }
+  ],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Practical Steel Mouse",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Oriental Rubber Chair",
+      "id": 16
+    },
+    {
+      "userId": 3,
+      "title": "Rustic Frozen Computer",
+      "id": 17
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=30160",
+      "id": 1
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=61951",
+      "id": 2
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3142",
+      "id": 3
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=17316",
+      "id": 4
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=99581",
       "id": 5
     },
     {
-      "name": "Jody Weber",
-      "id": 6
-    },
-    {
-      "name": "Ms. Pearl Moore",
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=46183",
       "id": 7
     }
-  ],
-  "albums": [],
-  "photos": []
+  ]
 }
